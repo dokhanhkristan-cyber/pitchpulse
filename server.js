@@ -4,7 +4,7 @@ const http = require('node:http');
 const crypto = require('node:crypto');
 const fs = require('node:fs');
 const path = require('node:path');
-
+const ROOT = __dirname;
 const PORT = Number(process.env.PORT || 3000);
 const ROOT = path.join(__dirname, 'public');
 const FILE = path.join(__dirname, 'data', 'rooms.json');
